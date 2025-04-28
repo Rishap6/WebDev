@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="learning about form attributes and types">
+    <title>Forms&type</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="" method="post">
+        <div>
+            <label for="name">Enter your Name:</label>
+            <input type="text" id="name" placeholder="type your name" name="name" required>
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male" >
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female" >
+            <label for="female">female</label>
+        </div>
+        <div>
+            <label for="age">Enter your age</label>
+            <input type="number" id="age" placeholder="age" name="age" min="18" max="40" required>
+        </div>
+        <div>
+            <label for="year">Enter year</label>
+            <input type="date" id="year" name="year" required>
+        </div>
+        <div>
+            <label for="country">Enter your country</label>
+            <select id="country" name="country"  required>
+                <option value="India">India</option>
+                <option value="Germany">Germany</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Enter your message</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" onclick="alert('welcome')">Submit</button>
+    </form>
+    
+</body>
+</html>
