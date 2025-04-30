@@ -1,0 +1,24 @@
+p {
+    color: red;
+    background-color: yellow;
+}
+div {
+    color: blue;
+    background-color: green;
+}
+span {
+    color: white;
+    background-color: black;
+}
+ul, ol {
+    color: purple;
+    background-color: orange;
+}
+strong {
+    color: pink;
+    background-color: gray;
+}
+em {
+    color: cyan;
+    background-color: brown;
+}
