@@ -1,0 +1,86 @@
+body{
+    background: black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+div p{
+    color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+}
+div p:hover{
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+}
+div p:hover::after{
+    content: " - This is a hover effect!";
+    color: yellow;
+    font-size: 25px;
+    font-weight: bolder;
+}
+div p::before{
+    content: "Hello! ";
+    color: green;
+    font-size: 25px;
+    font-weight: bolder;
+}
+div p::after{
+    content: " - This is a pseudo-element!";
+    color: blue;
+    font-size: 25px;
+    font-weight: bolder;
+}
+div p::first-letter{
+    color: orange;
+    font-size: 50px;
+    font-weight: bolder;
+}
+div p::first-line{
+    color: purple;
+    font-size: 30px;
+    font-weight: bolder;
+}
+div p::selection{
+    background: yellow;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.head{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.subclass, .body{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+a:visited{
+    color: purple;
+    font-size: 30px;
+    text-align: center;
+}
+a{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+a:hover{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+a:active{
+    color: green;
+    font-size: 30px;
+    text-align: center;
+}
+
+a:link{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
