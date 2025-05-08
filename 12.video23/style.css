@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .box {
+    border: 2px solid #ca5353;
+    display: inline-block;
+    padding: 45px;
+    margin: 35px;
+    width: 40vw;
+    background-color: yellow;
+  }
+  
