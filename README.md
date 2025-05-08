@@ -16,4 +16,4 @@ Step-by-step progress as I complete each video
 📌 Goal: To build a strong foundation in web development by practicing hands-on.
 
 👋 I'm open to feedback and collaboration!
-Made with patience and curiosity by [Your Name].
+Made with patience and curiosity by Rishikesh
