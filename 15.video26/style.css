@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid black;
+    overflow: scroll;
+    white-space: pre-wrap;
+    /* text-overflow: ellipsis; */
+    
+}
