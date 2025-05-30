@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.box {
+  background-color: salmon;
+  flex-basis: 150px;            
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  border: 2px solid #333;
+}
+.box1{
+flex-shrink: 0;
+flex-grow: 0;
+}
+.box2{
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.box3{
+  flex-shrink: 2;
+  flex-grow: 2;
+}

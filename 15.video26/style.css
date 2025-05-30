@@ -4,13 +4,30 @@
     box-sizing: border-box;
 }
 
-div{
+.first{
     width: 200px;
-    height: 100px;
+    height: 100vh;
     margin: auto;
     border: 2px solid black;
-    overflow: scroll;
+    overflow: hidden auto;
     white-space: pre-wrap;
     /* text-overflow: ellipsis; */
     
+}
+.second{
+    width: 200px;
+    height: 100vh;
+    margin: auto;
+    border: 2px solid black;
+    overflow: auto;
+   white-space: pre-wrap;
+    text-overflow: ellipsis;
+}
+.third{
+    width:50vh;
+    height:100vh;
+    margin:auto;
+    border:2px solid black;
+    overflow-x: hidden;
+    overflow-y: auto;
 }

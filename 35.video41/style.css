@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{;
+    background-color: #f0f0f0;
+    background-color: white;
+}
+header{
+    border-bottom: 1px solid #ddd;;
+}
+    
+ .navbar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 1% 10% 0% 10%;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .emb-logo{
+        align-self:flex-end;
+    }
+.MainNav{
+   margin-left: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 20px;
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.navitem{
+    cursor: pointer;
+}
+.rightNav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.rightNav div{
+    cursor: pointer;
+}
