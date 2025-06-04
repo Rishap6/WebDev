@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      
+      align-items: center;
+      gap: 40px;
+      padding: 50px;
+      background: #f0f0f0;
+    }
+
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: steelblue;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.5s ease-in-out;
+      border-radius: 10px;
+    }
+
+    /* Translate */
+    .translate:hover {
+      transform: translateX(100px);
+    }
+
+    /* Rotate */
+    .rotate:hover {
+      transform: rotate(45deg);
+    }
+
+    /* Scale */
+    .scale:hover {
+      transform: scale(1.5);
+    }
+
+    /* Skew */
+    .skew:hover {
+      transform: skewX(20deg);
+    }
+
+    /* Multiple */
+    .combo:hover {
+      transform: translateY(50px) rotate(20deg) scale(1.2);
+    }
+
+    
