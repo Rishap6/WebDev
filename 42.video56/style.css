@@ -1,0 +1,25 @@
+.curved-section {
+  background: lightblue;
+  height: 200px;
+  clip-path: polygon(100% 0, 100% 100%, 68% 88%, 47% 85%, 24% 88%, 0 100%, 1% 0);
+}
+.custom-shape-divider-bottom-1749927934 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1749927934 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 30px;
+}
+
+.custom-shape-divider-bottom-1749927934 .shape-fill {
+    fill: #FFFEFE;
+}
